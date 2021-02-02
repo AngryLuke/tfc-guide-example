@@ -1,3 +1,7 @@
+terraform {
+  version >= 0.12.0
+}
+
 provider "aws" {
   version = "2.33.0"
 
