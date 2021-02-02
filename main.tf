@@ -26,5 +26,5 @@ resource "aws_dynamodb_table" "tfc_example_table" {
     se-region = "emea-se"
     purpose   = "test and learning"
     terraform = "true"
-    
+  }
 }
