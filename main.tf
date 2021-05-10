@@ -32,7 +32,7 @@ resource "aws_dynamodb_table" "tfc_example_table" {
   
   tags = {
     Name      = "DynamoDB - demo resource"
-    owner     = "lbolli@hashicorp.com"
+    #owner     = "lbolli@hashicorp.com"
     ttl       = 48
     se-region = "emea-se"
     purpose   = "test and learning"
